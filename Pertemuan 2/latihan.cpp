@@ -8,11 +8,11 @@ int main(){
     cout << "Masukkan Jari-jari : ";
     cin >> jari2;
 
-    luas = 4 * pi * (jari2 * jari2);
-    cout << "Luas   : " << luas << " cm" << endl;
+    luas = 4 * pi * (jari2 * jari2); // menghitung luas lingkaran
+    cout << "Luas   : " << luas << " cm" << endl; // menampilkan luas lingkaran
 
-    volume = (float(4)/3) * pi * (jari2 * jari2 * jari2);
-    cout << "Volume : " << volume << " cm" << endl;
+    volume = (float(4)/3) * pi * (jari2 * jari2 * jari2); menghitung volume lingkaran
+    cout << "Volume : " << volume << " cm" << endl; menampilkan volume lingkaran
 
     return 0;
 }
