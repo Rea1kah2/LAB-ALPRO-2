@@ -16,7 +16,7 @@ int main()
     printf("Masukkan nim : ");
     scanf("%d", &nim); // fungsi masukan pada C
 
-    getchar();
+    getchar(); // berfungsi untuk "mengambil" karakter newline dari buffer agar input berikutnya berjalan dengan benar.
 
     printf("Masukkan kom : ");
     gets(kom);
