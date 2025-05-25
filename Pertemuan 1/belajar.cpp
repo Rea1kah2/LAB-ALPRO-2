@@ -19,7 +19,7 @@ int main(){
     cin >> ip;
     cout << "Masukkan Gender (L/P): ";
     jenis_kelamin = getche(); // minta inputan Karakter tanpa harus menekan enter
-    jenis_kelamin = toupper(jenis_kelamin);
+    jenis_kelamin = toupper(jenis_kelamin); // membuat nilai yg diisi menjadi huruf kapital
     cout << endl;
 
     cout << endl << nama << endl;
