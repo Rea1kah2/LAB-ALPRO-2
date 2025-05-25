@@ -10,8 +10,8 @@ int main(){
     cout << "Masukkan Lebar   : ";
     cin >> lebar;
 
-    luas = panjang * lebar;
-    cout << "Luas = " << luas << " cm" << endl;
+    luas = panjang * lebar; // menghitung luas persegi
+    cout << "Luas = " << luas << " cm" << endl; // menampilkan luas persegi
 
     return 0;
 }
